@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/imsudeeppatil/Ansi.gi'
+                git branch: 'master', url: 'https://github.com/imsudeeppatil/Ansi.git'
             }
         }
 
